@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.footer{
+    background: gold;
+    color: white;
+    .footer-links{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 20px;
+        a{
+            i{
+                font-size: 40px;
+                margin: 0 10px;
+            }
+            &:hover{
+                color: black;
+                transition: 500ms;
+            }
+        }
+    }
+    .footer-copy{
+        text-align: center;
+        padding: 8px 0;
+    }
+}

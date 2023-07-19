@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.afficher {
+  display: flex;
+  justify-content: end;
+  padding: 0 12%;
+}
+
+.add-container-none {
+  display: none;
+}
+
+.add-container-show {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  background: #2e2f348a;
+  position: fixed;
+  top: 0;
+}
+
+.add-player-none {
+  display: none;
+}
+
+.add-player-show {
+  display: flex;
+  justify-content: center;
+}
+.add-player-show form {
+  position: fixed;
+  border-radius: 15px;
+  padding: 50px 20px;
+  width: 600px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 201px));
+  justify-content: center;
+  gap: 10px;
+  background: linear-gradient(to right, #103CE7, #64E9FF);
+  box-shadow: 2px 2px 15px white, -2px -2px 15px white;
+  z-index: 2;
+}
+.add-player-show form .input-box input, .add-player-show form .input-box button {
+  width: 100%;
+}
+.add-player-show form .input-box input {
+  background: #DDFFC9;
+}
+.add-player-show form .input-box button {
+  background: white;
+  color: #0172AF;
+  border-color: #0172AF;
+  font-weight: bold;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.add-player-show form .input-box button i {
+  margin-right: 8px;
+}
+.add-player-show form .input-box button:hover {
+  background: #0172AF;
+  color: white;
+  border-color: white;
+  transition: 500ms;
+}
+
+.list form .list-control {
+  padding: 20px 0 8px;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 151px));
+}
+@media screen and (min-width: 900px) {
+  .list form .list-control {
+    display: flex;
+    justify-content: center;
+  }
+}
+.list form .list-control .radio-groupe {
+  margin: 0 14px;
+  display: flex;
+  align-items: center;
+}
+.list form .list-control .radio-groupe input {
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+.list form .list-control .radio-groupe label {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.list form .input-groupe {
+  display: flex;
+  justify-content: center;
+}
+.list form .input-groupe input {
+  width: 60%;
+  border-radius: 100px;
+}
+.list form .input-groupe button {
+  border-radius: 100%;
+  margin-left: 8px;
+}
+.list .list-container ul {
+  padding: 20px 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 260px));
+  gap: 20px;
+  justify-content: center;
+}
+.list .list-container ul .player-box {
+  list-style: none;
+  height: 200px;
+  background: url(../assets/pics/box.jpg);
+  text-align: center;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 2px 2px 9px black;
+  position: relative;
+}
+.list .list-container ul .player-box:hover {
+  transform: scale(1.04);
+  transition: 1s;
+}
+.list .list-container ul .player-box i {
+  font-size: 23px;
+}
+.list .list-container ul .player-box h3 {
+  font-weight: bold;
+}
+.list .list-container ul .player-box h4 {
+  font-style: italic;
+}
+.list .list-container ul .player-box .position {
+  color: #ff2f00;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+.list .list-container ul .player-box button {
+  width: 25px;
+  height: 25px;
+  background: white;
+  color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid red;
+  font-size: 10px;
+  border-radius: 3px;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
+.list .list-container ul .player-box button:hover {
+  color: white;
+  background: red;
+  transition: 300ms;
+}

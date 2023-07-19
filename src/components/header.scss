@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    .header-logo{
+        display: flex;
+        justify-content: center;
+        padding: 20px 0;
+        img{
+            width: 120px;
+            border-radius: 20px 0 20px 0;
+            box-shadow: 3px 3px 5px gold , -3px -3px 5px gold;
+        }
+    }
+    .header-nav{
+        padding: 4px 0;
+        ul{
+            display: flex;
+            justify-content: center;
+            a{
+                &:hover{
+                    text-decoration: none;
+                    color: #ff8800;
+                    border-bottom: 2px solid #ff8800;
+                }
+                li{
+                    list-style: none;
+                    font-size: 20px;
+                    padding: 4px 20px;
+                    display: flex;
+                    align-items: center;
+                    h5{
+                        margin-left: 10px;
+                        @media screen and (max-width:400px) {
+                            display: none;
+                        }
+                    }
+                    i{
+                        @media screen and (max-width:400px) {
+                            font-size: 40px;
+                            padding: 15px 0;
+                        }
+                    }
+                }
+            }
+            .nav-active{        
+                text-decoration: none;
+                color: gold;
+                border-bottom: 2px solid gold;
+                li{
+                    list-style: none;
+                    font-size: 20px;
+                    padding: 4px 20px;
+                    display: flex;
+                    align-items: center;
+                    h5{
+                        margin-left: 10px;
+                        @media screen and (max-width:400px) {
+                            display: none;
+                        }
+                    }
+                    i{
+                        @media screen and (max-width:400px) {
+                            font-size: 40px;
+                            padding: 15px 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

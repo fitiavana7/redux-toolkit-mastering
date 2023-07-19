@@ -1,0 +1,235 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.tube form .input-groupe {
+  display: flex;
+  justify-content: center;
+}
+.tube form .input-groupe input {
+  width: 60%;
+  border-radius: 100px;
+}
+.tube form .input-groupe button {
+  border-radius: 100%;
+  margin-left: 8px;
+}
+.tube .tube-container {
+  margin: 20px 0;
+  display: grid;
+  justify-content: space-between;
+  padding: 20px 8px;
+  grid-template-columns: 49% 49%;
+}
+@media screen and (max-width: 800px) {
+  .tube .tube-container {
+    grid-template-columns: 95%;
+    justify-content: center;
+  }
+}
+.tube .tube-container .video-side .welcome-video-player {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  box-shadow: 3px 3px 10px black;
+  background: url(../assets/pics/videoplayer.jpg) no-repeat;
+  background-size: cover;
+  height: 200px;
+  position: relative;
+}
+.tube .tube-container .video-side .welcome-video-player h3 {
+  color: gold;
+  font-weight: bold;
+  animation: animation-title infinite 6s;
+}
+.tube .tube-container .video-side .welcome-video-player h6 {
+  position: absolute;
+  bottom: 4px;
+  right: 4px;
+  color: white;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  background: linear-gradient(transparent, black, transparent);
+}
+.tube .tube-container .video-side .welcome-video-player h6 i {
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+  background: #6b6b6b;
+  margin-right: 3px;
+}
+.tube .tube-container .video-side .side-content {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+.tube .tube-container .video-side .side-content video {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+@media screen and (max-width: 992px) {
+  .tube .tube-container .video-side .side-content video {
+    height: 350px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .tube .tube-container .video-side .side-content video {
+    height: 300px;
+  }
+}
+.tube .tube-container .video-side .side-content .info h5 {
+  color: #1e1d1d;
+  font-weight: bold;
+}
+.tube .tube-container .video-side .side-content .info p {
+  text-align: justify;
+}
+.tube .tube-container .video-side .side-content .like {
+  padding-top: 30px;
+}
+.tube .tube-container .video-side .side-content .like button {
+  margin-right: 8px;
+  background: transparent;
+  color: #2552d6;
+  font-size: 19px;
+}
+.tube .tube-container .video-side .side-content .like button:hover {
+  background: #2552d6;
+  color: white;
+}
+.tube .tube-container .video-side .side-content .post-share {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+}
+.tube .tube-container .video-side .side-content .post-share a {
+  margin: 8px 4px;
+}
+.tube .tube-container .video-side .side-content .post-share a i {
+  border-radius: 100%;
+  background: #eeeaea;
+  font-size: 25px;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.tube .tube-container .video-side .side-content .post-share a i:hover {
+  color: #eeeaea;
+  background: black;
+  transition: 1s;
+}
+.tube .tube-container .video-side .side-content .post-share a:hover {
+  text-decoration: none;
+}
+.tube .tube-container .video-side .side-content .post-comment {
+  padding: 10px 0;
+}
+.tube .tube-container .video-side .side-content .post-comment .input-group button {
+  display: flex;
+  align-items: center;
+}
+.tube .tube-container .video-side .side-content .post-comment .input-group button i {
+  font-size: 20px;
+}
+.tube .tube-container .video-side .side-content .like-nombre h5 {
+  font-style: italic;
+}
+.tube .tube-container .video-side .side-comment {
+  padding: 30px 0;
+}
+.tube .tube-container .video-side .side-comment .comment-box {
+  display: flex;
+  padding: 8px 0;
+}
+.tube .tube-container .video-side .side-comment .comment-box i {
+  font-size: 25px;
+  background: #e7ff35;
+  border-radius: 100%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 10px;
+}
+.tube .tube-container .video-side .side-comment .comment-box .comment-content {
+  background: #eeeaea;
+  padding: 8px;
+  border-radius: 8px;
+  width: 95%;
+}
+.tube .tube-container .video-side .side-comment .comment-box .comment-content a {
+  font-weight: bold;
+}
+.tube .tube-container .video-side .side-comment .comment-box .comment-content p {
+  text-align: justify;
+}
+.tube .tube-container .video-side video {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+}
+.tube .tube-container .video-side .video-info h3 {
+  font-weight: bold;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.tube .tube-container .video-side .video-info h5 {
+  font-style: italic;
+}
+.tube .tube-container .video-list button {
+  padding: 8px;
+  display: flex;
+  width: 100%;
+  margin-bottom: 15px;
+  height: auto;
+}
+.tube .tube-container .video-list button:hover {
+  transform: scale(1.03);
+  transition: 1s;
+}
+.tube .tube-container .video-list button video {
+  width: 150px;
+  object-fit: cover;
+  height: 100px;
+}
+.tube .tube-container .video-list button .box-info {
+  width: 70%;
+  padding: 0 8px;
+}
+.tube .tube-container .video-list button .box-info h4 {
+  font-weight: bold;
+  text-align: left;
+}
+.tube .tube-container .video-list button .box-info h6 {
+  font-style: italic;
+  text-align: left;
+}
+
+@keyframes animation-title {
+  0% {
+    color: gold;
+  }
+  20% {
+    color: red;
+  }
+  40% {
+    color: white;
+  }
+  60% {
+    color: black;
+  }
+  80% {
+    color: greenyellow;
+  }
+  100% {
+    color: gold;
+  }
+}

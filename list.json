@@ -1,0 +1,487 @@
+{
+  "author": {
+    "nom": "Fitiavana Andriaherilanto"
+  },
+  "player": [
+    {
+      "id": 1,
+      "number": "01",
+      "name": "David de gea",
+      "nationality": "Spain",
+      "poste": "Goalkeeper"
+    },
+    {
+      "id": 2,
+      "number": "02",
+      "name": "Victor Lindelof",
+      "nationality": "Sweden",
+      "poste": "Defender"
+    },
+    {
+      "id": 3,
+      "number": "04",
+      "name": "Phil Jones",
+      "nationality": "England",
+      "poste": "Defender"
+    },
+    {
+      "id": 4,
+      "number": "05",
+      "name": "Harry Maguire",
+      "nationality": "England",
+      "poste": "Defender"
+    },
+    {
+      "id": 5,
+      "number": "06",
+      "name": "Lisandro Martinez",
+      "nationality": "Argentina",
+      "poste": "Defender"
+    },
+    {
+      "id": 6,
+      "number": "08",
+      "name": "Bruno Fernandes",
+      "nationality": "Portugal",
+      "poste": "Midfielder"
+    },
+    {
+      "id": 7,
+      "number": "09",
+      "name": "Anthony Martial",
+      "nationality": "France",
+      "poste": "Striker"
+    },
+    {
+      "id": 8,
+      "number": "10",
+      "name": "Marcus Rashford",
+      "nationality": "England",
+      "poste": "Striker"
+    },
+    {
+      "id": 9,
+      "number": "12",
+      "name": "Tyrell Malacia",
+      "nationality": "Netherland",
+      "poste": "Defender"
+    },
+    {
+      "id": 10,
+      "number": "13",
+      "name": "Tom Heaton",
+      "nationality": "England",
+      "poste": "Goalkeeper"
+    },
+    {
+      "id": 11,
+      "number": "14",
+      "name": "Christian Eriksen",
+      "nationality": "Danemark",
+      "poste": "Midfielder"
+    },
+    {
+      "id": 12,
+      "number": "17",
+      "name": "Fred",
+      "nationality": "Brasil",
+      "poste": "Midfielder"
+    },
+    {
+      "id": 13,
+      "number": "18",
+      "name": "Casemiro",
+      "nationality": "Brasil",
+      "poste": "Midfielder"
+    },
+    {
+      "id": 14,
+      "number": "19",
+      "name": "Raphael Varane",
+      "nationality": "France",
+      "poste": "Defender"
+    },
+    {
+      "id": 15,
+      "number": "20",
+      "name": "Diogo Dalot",
+      "nationality": "Portugal",
+      "poste": "Defender"
+    },
+    {
+      "id": 16,
+      "number": "21",
+      "name": "Antony Santos",
+      "nationality": "Brasil",
+      "poste": "Striker"
+    },
+    {
+      "id": 17,
+      "number": "23",
+      "name": "Luke Shaw",
+      "nationality": "England",
+      "poste": "Defender"
+    },
+    {
+      "id": 18,
+      "number": "25",
+      "name": "Jadon Sancho",
+      "nationality": "England",
+      "poste": "Striker"
+    },
+    {
+      "id": 19,
+      "number": "27",
+      "name": "Wout Weghorst",
+      "nationality": "Netherland",
+      "poste": "Striker"
+    },
+    {
+      "id": 20,
+      "number": "29",
+      "name": "Aaron Wan-Bissaka",
+      "nationality": "England",
+      "poste": "Defender"
+    },
+    {
+      "id": 21,
+      "number": "30",
+      "name": "Anthony Elanga",
+      "nationality": "Sweden",
+      "poste": "Striker"
+    },
+    {
+      "id": 22,
+      "number": "34",
+      "name": "Donny Van De Beek",
+      "nationality": "Netherland",
+      "poste": "Midfielder"
+    },
+    {
+      "id": 23,
+      "number": "39",
+      "name": "Scott McTominay",
+      "nationality": "Scotland",
+      "poste": "Midfielder"
+    },
+    {
+      "id": 24,
+      "number": "47",
+      "name": "Alejandro Garnacho",
+      "nationality": "Argentina",
+      "poste": "Striker"
+    },
+    {
+      "id": 25,
+      "number": "49",
+      "name": "Kobe Mainoo",
+      "nationality": "England",
+      "poste": "Defender"
+    },
+    {
+      "id": 26,
+      "number": "50",
+      "name": "Charlie Savage",
+      "nationality": "England",
+      "poste": "Striker"
+    },
+    {
+      "id": 27,
+      "number": "51",
+      "name": "Jack Butland",
+      "nationality": "-",
+      "poste": "Goalkeeper"
+    },
+    {
+      "id": 28,
+      "number": "53",
+      "name": "Brandon Williams",
+      "nationality": "England",
+      "poste": "Defender"
+    },
+    {
+      "id": 29,
+      "number": "60",
+      "name": "Facundo Pellistri",
+      "nationality": "Uruguay",
+      "poste": "Midfielder"
+    },
+    {
+      "id": 30,
+      "number": "62",
+      "name": "Nathan Bishop",
+      "nationality": "-",
+      "poste": "Goalkeeper"
+    },
+    {
+      "id": 31,
+      "number": "70",
+      "name": "Axel Tuanzebe",
+      "nationality": "England",
+      "poste": "Defender"
+    },
+    {
+      "number": "10",
+      "name": "Fitiavana",
+      "nationality": "england",
+      "poste": "entraineur",
+      "id": 34
+    },
+    {
+      "number": "7",
+      "name": "patrick",
+      "nationality": "madagascar",
+      "poste": "Defender",
+      "id": 35
+    }
+  ],
+  "video": [
+    {
+      "id": 1,
+      "title": "Manchester United 3-0 Nottingham Forest",
+      "poster": "./media/videos/mun.jpg",
+      "source": "./media/videos/mun.mp4",
+      "author": "Marcus10"
+    },
+    {
+      "id": 2,
+      "title": "Red devils best moments on 2008 UCL  campaign",
+      "poster": "./media/videos/mun1.jpg",
+      "source": "./media/videos/mun1.mp4",
+      "author": "Antony21"
+    },
+    {
+      "id": 3,
+      "title": "Marcus Rashford de retour en feu ",
+      "poster": "./media/videos/mun2.jpg",
+      "source": "./media/videos/mun2.mp4",
+      "author": "Marcus10"
+    },
+    {
+      "id": 4,
+      "title": "Les magiques moments de Casemiro",
+      "poster": "./media/videos/mun3.jpg",
+      "source": "./media/videos/mun3.mp4",
+      "author": "Marcus10"
+    },
+    {
+      "id": 5,
+      "title": "Donny Van de beek encore blesse  ,c'est horrible ",
+      "poster": "./media/videos/mun4.jpg",
+      "source": "./media/videos/mun4.mp4",
+      "author": "Marcus10"
+    },
+    {
+      "id": 6,
+      "title": "Amad Diallo , notre crack en feu a Sunderland",
+      "poster": "./media/videos/mun5.jpg",
+      "source": "./media/videos/mun5.mp4",
+      "author": "Marcus10"
+    },
+    {
+      "id": 7,
+      "title": "Les derniers nouvelles sur le mercato mancunnienne",
+      "poster": "./media/videos/mun6.jpg",
+      "source": "./media/videos/mun6.mp4",
+      "author": "Marcus10"
+    },
+    {
+      "id": 8,
+      "title": "Conference de presse du boss , Erik Ten Hag",
+      "poster": "./media/videos/mun7.jpg",
+      "source": "./media/videos/mun7.mp4",
+      "author": "Marcus10"
+    },
+    {
+      "id": 9,
+      "title": "Le duo Varane-Shaw , la nouvelle mur mancunienne ",
+      "poster": "./media/videos/mun8.jpg",
+      "source": "./media/videos/mun8.mp4",
+      "author": "Marcus10"
+    },
+    {
+      "id": 10,
+      "title": "Bruno Fernandes , le magicien des Red Devils",
+      "poster": "./media/videos/mun9.jpg",
+      "source": "./media/videos/mun9.mp4",
+      "author": "Marcus10"
+    },
+    {
+      "id": 11,
+      "title": "Cristiano Ronaldo top 50 buts pour Manchester United",
+      "poster": "./media/videos/mun10.jpg",
+      "source": "./media/videos/mun10.mp4",
+      "author": "Marcus10"
+    },
+    {
+      "id": 12,
+      "title": "Nemanja Vidic , meilleurs moments du mu serbe a Old Trafford",
+      "poster": "./media/videos/mun4.jpg",
+      "source": "./media/videos/mun4.mp4",
+      "author": "Marcus10"
+    },
+    {
+      "id": 13,
+      "title": "Savez-vous les ballons d'or mancunniennes ?",
+      "poster": "./media/videos/mun8.jpg",
+      "source": "./media/videos/mun8.mp4",
+      "author": "Marcus10"
+    },
+    {
+      "id": 14,
+      "title": "Les meilleurs defemseurs de tout les temps a Manchester United",
+      "poster": "./media/videos/mun2.jpg",
+      "source": "./media/videos/mun2.mp4",
+      "author": "Marcus10"
+    }
+  ],
+  "audio": [
+    {
+      "id": 1,
+      "singer": "Zayn",
+      "title": "Let me",
+      "source": "./media/audios/zayn-letme.mp3",
+      "poster": "./media/poster/zayn.jpg"
+    },
+    {
+      "id": 2,
+      "singer": "Black M & Kv Adams",
+      "title": "Alladin",
+      "source": "./media/audios/blackm-alladin.mp3",
+      "poster": "./media/poster/kevadams.jpg"
+    },
+    {
+      "id": 3,
+      "singer": "Black M",
+      "title": "Sur ma route",
+      "source": "./media/audios/blackm-surmaroute.mp3",
+      "poster": "./media/poster/blackm.jpg"
+    },
+    {
+      "id": 4,
+      "singer": "Bon Jovi",
+      "title": "Always",
+      "source": "./media/audios/bonjovi-always.mp3",
+      "poster": "./media/poster/bonjovi.jpg"
+    },
+    {
+      "id": 5,
+      "singer": "Alpha blondy",
+      "title": "Jerusalem",
+      "source": "./media/audios/blondy-jerusalem.mp3",
+      "poster": "./media/poster/blondy.jpg"
+    },
+    {
+      "id": 6,
+      "singer": "Diamond Platnumz & Ney Yo",
+      "title": "Marry you",
+      "source": "./media/audios/diamond-marryyou.mp3",
+      "poster": "./media/poster/diamond.jpg"
+    },
+    {
+      "id": 7,
+      "singer": "Diamond Platnumz",
+      "title": "Mwaza Niegezi",
+      "source": "./media/audios/diamond-mwaza.mp3",
+      "poster": "./media/poster/diamond.jpg"
+    },
+    {
+      "id": 8,
+      "singer": "Diamond Platnumz",
+      "title": "Yena",
+      "source": "./media/audios/diamond-yena.mp3",
+      "poster": "./media/poster/diamond.jpg"
+    },
+    {
+      "id": 9,
+      "singer": "Maitre Gims",
+      "title": "Holla Señorita",
+      "source": "./media/audios/gims-holla.mp3",
+      "poster": "./media/poster/gims.jpg"
+    },
+    {
+      "id": 10,
+      "singer": "Jason Derullo",
+      "title": "Love Not War",
+      "source": "./media/audios/jason-lovenotwar.mp3",
+      "poster": "./media/poster/jason.jpg"
+    },
+    {
+      "id": 11,
+      "singer": "Kalash",
+      "title": "Taken",
+      "source": "./media/audios/kalash-taken.mp3",
+      "poster": "./media/poster/kalash.jpg"
+    },
+    {
+      "id": 12,
+      "singer": "Rema",
+      "title": "Calm Down",
+      "source": "./media/audios/rema-calmdown.mp3",
+      "poster": "./media/poster/rema.jpg"
+    },
+    {
+      "id": 13,
+      "singer": "Bon Jovi",
+      "title": "Bed of roses",
+      "source": "./media/audios/jovi-bedofroses.mp3",
+      "poster": "./media/poster/bonjovi.jpg"
+    },
+    {
+      "id": 14,
+      "singer": "Daddy Yankee",
+      "title": "Con Calma",
+      "source": "./media/audios/yankee-conclama.mp3",
+      "poster": "./media/poster/yankee.jpg"
+    },
+    {
+      "id": 15,
+      "singer": "Selena Gomez",
+      "title": "Taki Taki",
+      "source": "./media/audios/selena-takitaki.mp3",
+      "poster": "./media/poster/selena.jpg"
+    },
+    {
+      "id": 16,
+      "singer": "Justin Bieber",
+      "title": "I won't give up",
+      "source": "./media/audios/bieber-giveup.mp3",
+      "poster": "./media/poster/bieber.jpg"
+    },
+    {
+      "id": 17,
+      "singer": "Justin Bieber",
+      "title": "Yummy",
+      "source": "./media/audios/bieber-yummy.mp3",
+      "poster": "./media/poster/bieber.jpg"
+    },
+    {
+      "id": 18,
+      "singer": "One Direction",
+      "title": "Little Things",
+      "source": "./media/audios/onedir-littlethings.mp3",
+      "poster": "./media/poster/onedir.jpg"
+    },
+    {
+      "id": 19,
+      "singer": "One Direction",
+      "title": "Steal My Girl",
+      "source": "./media/audios/onedir-stealmygirl.mp3",
+      "poster": "./media/poster/onedir.jpg"
+    },
+    {
+      "id": 20,
+      "singer": "One Direction",
+      "title": "Story of my life",
+      "source": "./media/audios/onedir-story.mp3",
+      "poster": "./media/poster/onedir.jpg"
+    },
+    {
+      "id": 21,
+      "singer": "Stephen Marley & Pitbull",
+      "title": "Options",
+      "source": "./media/audios/marley-option.mp3",
+      "poster": "./media/poster/marley.jpg"
+    }
+  ]
+}

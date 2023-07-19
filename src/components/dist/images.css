@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.images form {
+  margin: 20px 0 40px;
+}
+.images form .input-box {
+  display: flex;
+  justify-content: center;
+}
+.images form .input-box input {
+  width: 400px;
+  border-radius: 50px;
+  margin: 0 4px;
+}
+.images form .input-box button {
+  margin-left: 8px;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.images .mon-box h3 {
+  color: black;
+  display: flex;
+  justify-content: space-between;
+}
